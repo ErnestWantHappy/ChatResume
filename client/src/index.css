@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+* {
+    font-family: "SimSun", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+input{
+    margin: 10px 10px 10px 0px!important;
+}
+form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+input {
+    margin-bottom: 15px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #ddd;
+}
+h3 {
+    margin: 15px 0;
+}
+.btn_group{
+    margin-top: 15px;
+}
+button {
+    padding: 15px;
+    cursor: pointer;
+    outline: none;
+    background-color: #5d3891;
+    border: none;
+    color: #f5f5f5;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.app > p {
+    margin-bottom: 30px;
+}
+.nestedContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.div1{
+    margin-top: 18px;
+}
+.companies {
+    display: flex;
+    flex-direction: column;
+    width: 39%;
+}
+.currentInput {
+    width: 95%;
+}
+#photo {
+    width: 50%;
+}
+#addBtn {
+    background-color: green;
+    margin-right: 5px;
+}
+#deleteBtn {
+    background-color: red;
+}
+.container {
+    min-height: 100vh;
+    padding: 30px;
+    background-color: #E0E6EC;
+}
+.container-inner{
+    width: 55%;
+    background-color: #fff;
+    margin: 0 auto;
+    font-weight: bold;
+    
+}
+.header {
+    width: 100%;
+    min-height: 10vh;
+    padding: 30px;
+    display: flex;
+    height: 150px;
+}
+.header-left{
+    width: 80%;
+    height: 140px;
+    
+}
+.left-top{
+    display: flex;
+    height: 50px;
+    font-size: 18px;
+}
+.left-top-bg{
+    width: 80%;
+    background-color: #002060;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-top-name{
+    padding-left: 50px;
+}
+.Triangle{
+    width: 0;
+    height: 0;
+    border: 25px solid;
+    border-color: transparent transparent transparent #002060;
+
+}
+.left-foot{
+    display:flex;
+    height: 100px;
+    color:#2F5597;
+}
+.left-foot>div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around!important;
+}
+.item3-foot{
+    height: 66.66%;
+}
+.resumeTitle {
+    opacity: 0.6;
+}
+.headerTitle {
+    margin-bottom: 15px;
+}
+.resumeImage {
+    vertical-align: middle;
+    width: 120px;
+    height: 140px;
+}
+.resumeBody {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    min-height: 80vh;
+}
+.resumeBodyTitle {
+    margin-bottom: 5px;
+}
+.resumeBodyContent {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-family: "仿宋_GB2312", "FangSong_GB2312", sans-serif;
+   color: #2F5597;
+}
+.resumeBodyContent-mini{
+    text-align: justify;
+    margin: 20px 0px;
+    font-family: "仿宋_GB2312", "FangSong_GB2312", sans-serif;
+   color: #2F5597;
+}
+.chooseFeng{
+    display: flex;
+    margin: 15px 0px;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnCreate{
+    width: 40%;
+    margin: 10px auto;
+}
+.saveBtn{
+        align-items: center;
+        background-color: #002060;
+        bottom: 0;
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        font-family: Lora, serif;
+        font-size: 16px;
+        height: 48px;
+        justify-content: center;
+        position: fixed;
+        right: 0;
+        transition: .4s ease-in-out;
+        width: 170px;
+}
+.saveBtn:hover{
+    bottom: -1%;
+}
+.returnBtn{
+    top: 10px;
+    cursor: pointer;
+    height: 40px;
+    position: fixed;
+    left: 0;
+    transition: .4s ease-in-out;
+    width: 40px;
+    background: url('/public/return.png') no-repeat center center /cover;
+}
+.returnBtn:hover{
+    left: -1%;
+}
+
+.item-foot{
+    display: flex;
+    min-height: 10vh;
+    flex-direction: column;
+}
+.item-top{
+    width: 100%;
+    display: flex;
+    height: 30px;
+}
+.item-line{
+    width: 78%;
+    height: 0.1px;
+    margin-top: 15px;
+    background-color: #002060;
+    margin-left: -15px;
+}
+.item-top-left{
+    width: 22%;
+    display: flex;
+    height: 30px;
+}
+.item-tri{
+    width: 0;
+    height: 0;
+    border: 15px solid;
+    border-color: transparent transparent transparent #002060;
+}
+.item-text{
+    color: #fff;
+    background-color: #002060;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+}
+.item-image{
+    width: 25px;
+    height: 25px;
+}

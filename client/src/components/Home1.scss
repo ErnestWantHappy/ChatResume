@@ -1,0 +1,35 @@
+.home1{
+    min-height: 100vh;
+    display: flex;
+    width: 1000px;
+    flex-direction: column;
+    padding: 30px;
+    .homeTitle{
+        text-align: center;
+    }
+    .dateClass{
+        width:100%;
+    }
+    .addBtn{
+        margin-top: 60px;
+    }
+    .removeBtn{
+        margin-top: 60px;
+    }
+    .chooseFeng{
+        width: 80%;
+    }
+    .returnBtn{
+        top: 10px;
+        cursor: pointer;
+        height: 40px;
+        position: fixed;
+        left: 0;
+        transition: .4s ease-in-out;
+        width: 40px;
+        background: url('../../public/return.png') no-repeat center center /cover;
+    }
+    .returnBtn:hover{
+        left: -1%;
+    }
+}
